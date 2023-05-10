@@ -1,0 +1,88 @@
+body {
+    background-color: #f3f5f7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #f3f5f7;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.card-header p {
+    color: #6c757d;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.btn {
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.btn-info {
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #007bff;
+}
+
+.btn-info:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #ffffff;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-link {
+    padding: 0;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.game-card {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#answerField {
+    font-weight: 700;
+}
+
+#orderNumberField {
+    font-weight: 700;
+    color: #007bff;
+}
